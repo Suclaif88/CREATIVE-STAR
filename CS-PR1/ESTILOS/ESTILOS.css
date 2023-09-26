@@ -59,7 +59,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 10px;
+	padding: 5px;
 	color: black;
   }
   
@@ -93,7 +93,7 @@ body {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-   text-align: justify;
+	text-align: center;
   }
 
   .dropdown-content li {
@@ -106,7 +106,7 @@ body {
     display: block;
   }
   .icono img {
-	width: 100px;
+	width: 50px;
 	height: 50px;
 	margin-right: 50px;
   }
@@ -185,17 +185,18 @@ table {
   }
 
   .textinc{
-    width: 1500px;
-	  height: 600px;
-    margin-top: 400px;
+    width: 1100px;
+	  height: 220px;
+    float: right;
+    margin-top: 300px;
     font-size: 30px;
-    position: absolute;
+  
   }
 
   #c1inc{
     
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border: 1px solid;
     border-radius: 260px;
     
@@ -210,8 +211,8 @@ table {
 
 #c2inc{
     
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   border: 1px solid;
   border-radius: 260px;
   
@@ -226,8 +227,8 @@ table {
 
 #c3inc{
     
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   border: 1px solid;
   border-radius: 260px;
   
@@ -242,8 +243,8 @@ table {
 
 #c4inc{
     
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   border: 1px solid;
   border-radius: 260px;
   
@@ -262,8 +263,8 @@ table {
 
 #c5inc{
     
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   border: 1px solid;
   border-radius: 260px;
   
@@ -274,12 +275,13 @@ table {
   background-repeat: no-repeat;
   background-position: center;
   margin-left: auto;
+  
 }
 
 #c6inc{
     
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   border: 1px solid;
   border-radius: 260px;
   
@@ -294,8 +296,8 @@ table {
 
 #c7inc{
     
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   border: 1px solid;
   border-radius: 260px;
   
@@ -310,8 +312,8 @@ table {
 
 #c8inc{
     
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   border: 1px solid;
   border-radius: 260px;
   
@@ -322,4 +324,80 @@ table {
   background-repeat: no-repeat;
   background-position: center;
   margin-left: auto;
+}
+
+#valeria{
+  background-color: #55C9F6;
+  border: 1px#000000 solid;
+  height: 482px;
+  width: 855px;
+  margin-left: 270px;
+  margin-top: 40px;
+}
+
+.carrousel{
+  width: 100%;
+}
+
+.conteCarrousel{
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.itemCarrousel{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.itemCarrouselTarjeta{
+  width: 100%;
+  height: 100%;
+}
+
+.itemCarrouselArrows{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px; 
+}
+
+.itemCarrouselArrows > i:hover {
+  cursor: pointer;
+}
+
+#itemCarrousel-1{
+  background-color: rgb(226, 50, 50);
+}
+
+#itemCarrousel-2{
+  background-color: rgb(50, 200, 226);
+}
+
+#itemCarrousel-3{
+  background-color: rgb(200, 226, 50);
+}
+
+.conteCarrouselController{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.conteCarrouselController > a{
+  text-decoration: none;
+  font-size: 2em;
+  color: grey;
+}
+
+.itemCarrouselArrows > a > i{
+  color: white;
 }
