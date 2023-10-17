@@ -54,14 +54,14 @@ body {
   
   .navbar {
 	background-color: #55C9F6;
-  width: 100%;
+  width:100%;
 	justify-content: space-between;
 	align-items: center;
   display: flex;
 	padding: 5px;
 	color: black;
   flex-wrap: wrap;
-  flex-basis: 200;
+  flex-basis: 00;
   }
 
   .navbar li :hover{
@@ -78,7 +78,7 @@ body {
   }
 
   .imguser{
-    margin-left: 400px;
+    margin-left: 150px;
     width: 50px;
     height: 50px;
     border: 1px black solid;
