@@ -10,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 </head>
-<body style="background-repeat: no-repeat; background-size: cover; background-image: url(IMG/Fondos/foto\ 4.jpg);">
+<body style="background-repeat: no-repeat; background-size: cover; background-image: url(IMG/Fondos/foto\ 2.jpg);">
 
 <nav class="navbar">
         <div class="logo">
@@ -36,33 +36,22 @@
         </div>
       </nav>
 
-<div class="textinc">
-  <h1><strong>"LA CREATIVIDAD ES LA INTELIGENCIA DIVIRTIENDOSE"</strong></h1><h4>ALBERT EINSTEIN</h4>
-</div>
 
 
-<div class="parent">
-  <div class="div1"> </div>
-  <div class="div2"> </div>
-  <div class="div3"> </div>
-  <div class="div4"> </div>
-  <div class="div5"> </div>
-  <div class="div6"> </div>
-  <div class="div7"> </div>
-</div>
+      
 
 </body>
 
-<footer class="footer">
+      <footer class="footer">
 
-  <div class="shared-panel">
-	<a target="_blank" class="shared fb" title="Facebook" href="https://m.facebook.com/login/?locale=es_ES"></a>	
-	<a target="_blank" class="shared tt" title="Twitter" href="https://twitter.com/?lang=es"></a>
-	<a target="_blank" class="shared gp" title="Google+" href="https://myaccount.google.com/profile"></a>
-	<a target="_blank" class="shared wa" title="WhatsApp" href="https://www.whatsapp.com/?lang=es"></a>
-	<a target="_blank" class="shared ce" id="sml" title="Email" href="https://www.google.com/intl/es-419/gmail/about/"></a>		
-  </div>
+<div class="shared-panel">
+  <a target="_blank" class="shared fb" title="Facebook" href="https://m.facebook.com/login/?locale=es_ES"></a>	
+  <a target="_blank" class="shared tt" title="Twitter" href="https://twitter.com/?lang=es"></a>
+  <a target="_blank" class="shared gp" title="Google+" href="https://myaccount.google.com/profile"></a>
+  <a target="_blank" class="shared wa" title="WhatsApp" href="https://www.whatsapp.com/?lang=es"></a>
+  <a target="_blank" class="shared ce" id="sml" title="Email" href="https://www.google.com/intl/es-419/gmail/about/"></a>		
+</div>
 
-  </footer>
+</footer>
 
 </html>
