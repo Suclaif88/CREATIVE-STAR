@@ -10,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 </head>
-<body style="background-repeat: no-repeat; background-size: cover; background-image: url(IMG/Fondos/foto\ 4.jpg);">
+<body style="background-repeat: no-repeat; background-size: cover; background-image: url(IMG/Fondos/foto\ 5.jpg);">
 
 <nav class="navbar">
         <div class="logo">
@@ -20,8 +20,8 @@
          <a href="INDEX.php" target="_self"></a>
         </div>
         <ul class="menu">
-          <li><a href="INDEX.php" target="_self"><b>INICIO</b></a></li>
-          <li><a href="UBICANOS.php" target="_self">UBÍCANOS</a></li>
+          <li><a href="INDEX.php" target="_self">INICIO</a></li>
+          <li><a href="UBICANOS.php" target="_self"><b>UBÍCANOS</b></a></li>
           <li class="dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">MENÚ</a>
           <ul class="dropdown-content dropdown-menu">
@@ -35,20 +35,7 @@
         </div>
       </nav>
 
-<div class="textinc">
-  <h1><strong>"LA CREATIVIDAD ES LA INTELIGENCIA DIVIRTIENDOSE"</strong></h1><h4>ALBERT EINSTEIN</h4>
-</div>
 
-
-<div class="parent">
-  <div class="div1"> </div>
-  <div class="div2"> </div>
-  <div class="div3"> </div>
-  <div class="div4"> </div>
-  <div class="div5"> </div>
-  <div class="div6"> </div>
-  <div class="div7"> </div>
-</div>
 
 </body>
 
