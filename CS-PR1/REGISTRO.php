@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="ESTILOS/ESTILOS.css">
     <link rel="stylesheet" href="ESTILOS/boostrap.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+    <script src="JS/JS1.js"></script>
 </head>
 <body style="background-repeat: no-repeat; background-size: cover; background-image: url(IMG/Fondos/foto\ 2.jpg);">
 
@@ -36,9 +36,24 @@
         </div>
       </nav>
 
+<center>
+<div class="form">
+  <form action="singup.php" method="post">
+  <br>
+   <label><strong><h1>REGISTRO</h1></strong></label>
+   <input type="text" name="name" placeholder="Ingresa tu nombre">
+   <input type="text" name="apellido" placeholder="Ingresa tus apellidos">  
+   <input type="text" name="doc" placeholder="Ingresa tu documento">
+   <input type="text" name="email" placeholder="Ingresa tu correo">
+   <input type="password" name="password" placeholder="Ingresa tu contraseña">
+   <input type="password" name="confirm_password" placeholder="Confirma tu contraseña">
+   <form action="singup.php" method="post">
 
 
-      
+   <input type="submit" value="ENVIAR">
+
+  </form>
+</center>
 
 </body>
 

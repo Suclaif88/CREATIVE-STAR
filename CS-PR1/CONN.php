@@ -1,0 +1,15 @@
+<?php 
+
+$servidor="localhost";
+$usuario="root";
+$clave="";
+$db="CS_DB";
+
+$conexion=mysqli_connect($servidor,$usuario,$clave,$db);
+
+
+if(!$conexion){
+    die("error de conexion: ".mysqli_connect_error());
+}
+
+?>
