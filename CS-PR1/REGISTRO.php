@@ -7,6 +7,7 @@
     
     <link rel="stylesheet" href="ESTILOS/ESTILOS.css">
     <link rel="stylesheet" href="ESTILOS/boostrap.css">
+    <link rel="icon" type="image/png" href="IMG/Fondos/brocha.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="JS/JS1.js"></script>
 </head>
@@ -38,7 +39,7 @@
 
 <center>
 <div class="form">
-  <form action="singup.php" method="post">
+  <form action="php/registrar.php" method="post">
   <br>
    <label><strong><h1>REGISTRO</h1></strong></label>
    <input type="text" name="nombre" placeholder="Ingresa tu nombre">

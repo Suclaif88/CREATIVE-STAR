@@ -10,13 +10,15 @@ $password=$_POST['password'];
 
 if(!$doc=="" && !$password==""){
     
-    $consulta="SELECT * FROM usuarios WHERE  usuario='$usuario'";
+    $consulta="SELECT * FROM usuarios WHERE  NOMBRE='$nombre'";
 
     $resultado_consulta=mysqli_query($conexion,$consulta);
 
     if($resultado_consulta && mysqli_num_rows($resultado_consulta)>0)
     {
-        echo "el nombre de usuario ya existe en la base de datos";
+        echo '<script type="text/javascript">alert("YA SE ENCUENTRA REGISTRADO CON ESTAS CRENDENCIALES");</script>';
+        echo '<script type="text/javascript">window.location.href = "../REGISTRO.php";</script>';
+        
     } else{
     
     $insertar="INSERT INTO usuarios(NOMBRE,APELLIDO,DOCUMENTO,CORREO,CONTRASEÑA) VALUES('$nombre','$apellido','$doc','$correo','$password')";
