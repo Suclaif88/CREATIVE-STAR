@@ -7,10 +7,12 @@
     
     <link rel="stylesheet" href="ESTILOS/ESTILOS.css">
     <link rel="stylesheet" href="ESTILOS/boostrap.css">
+    <link rel="icon" type="image/png" href="IMG/Fondos/brocha.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="JS/JS1.js"></script>
 </head>
-<body style="background-repeat: no-repeat; background-size: cover; background-image: url(IMG/Fondos/foto\ 7.jpeg);">
+<body style="background-repeat: no-repeat; background-size: cover; background-image: url(IMG/Fondos/foto\ 4.jpg);">
+
 <nav class="navbar">
         <div class="logo">
         <a href="INDEX.php" target="_self"><img src="IMG/logos/creativestar3.png" alt="Logo"></a>
@@ -20,9 +22,9 @@
         </div>
         <ul class="menu">
           <li><a href="REGISTRO.php" target="_self">REGISTRATE</a></li>
-          <li><a href="INDEX.php" target="_self"><b>INICIO</b></a></li>
+          <li><a href="INDEX.php" target="_self">INICIO</a></li>
           <li><a href="UBICANOS.php" target="_self">UBÍCANOS</a></li>
-          <li><a href="inicio_sesion.php" target="_self">ENTRAR</a></li>
+          <li><a href="inicio_sesion.php" target="_self"><b>ENTRAR</b></a></li>
           <li class="dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">MENÚ</a>
           <ul class="dropdown-content dropdown-menu">
@@ -34,33 +36,33 @@
         <div class="icono">
           <a href="QSOMOS.php" target="_self"><img src="IMG/Fondos/brocha.png"></a>
         </div>
-</nav>
-<!---------------------->
-<style>
-   form {
+      </nav>
+
+      <style>
+    .form {
       width: 100%;
-      max-width: 500px; 
+      max-width: 400px;
       background-color: #55C9F6;
       padding: 20px;
       box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
       border-radius: 5px;
+      text-align: center;
     }
 
-    h1 {
+    h2 {
       text-align: center;
       color: black;
+      font-size: 24px;
     }
 
     label {
       display: block;
       margin-bottom: 10px;
-      color: #333;
+      color: black;
     }
 
-    input[type="text"],
-    input[type="tel"],
     input[type="email"],
-    textarea {
+    input[type="password"] {
       width: 100%;
       padding: 10px;
       margin-bottom: 20px;
@@ -80,43 +82,25 @@
     input[type="submit"]:hover {
       background-color: #2980B9;
     }
-    @media (max-width: 600px) {
-      form {
-        max-width: 100%;
-      }
-    }
   </style>
 </head>
 <body>
-  <center>
-  <br>
-  <br>
-  <form action="procesar_domicilio.php" method="POST">
-    <h1>Formulario de Toma de Domicilios</h1>
-    <label for="nombre">Nombre Completo:</label>
-    <input type="text" id="nombre" name="nombre" required>
+    <center>
+  <div class="form">
+    <h2>Iniciar Sesión</h2>
+    <form action="php/entrar.php" method="post">
+      <label for="email">Correo Electrónico:</label>
+      <input type="email" id="email" name="email" required>
 
-    <label for="telefono">Teléfono de Contacto:</label>
-    <input type="tel" id="telefono" name "telefono" required>
+      <label for="password">Contraseña:</label>
+      <input type="password" id="password" name="password" required>
 
-    <label for="correo">Correo Electrónico:</label>
-    <input type="email" id="correo" name="correo" required>
-
-    <label for="direccion">Dirección de Entrega:</label>
-    <textarea id="direccion" name="direccion" rows="4" required></textarea>
-
-    <label for="pedido">Detalle del Pedido:</label>
-    <textarea id="pedido" name="pedido" rows="4" required></textarea>
-
-    <input type="submit" value="Enviar Pedido">
-  </form>
-  <br>
-  <br>
-  <br>
-  </center>
-<!---------------------->
-
+      <input type="submit" value="Iniciar Sesión">
+    </form>
+  </div>
+    </center>
 </body>
+
 <footer class="footer">
 
   <div class="shared-panel">
@@ -128,3 +112,5 @@
   </div>
 
   </footer>
+
+</html>

@@ -24,6 +24,7 @@
           <li><a href="REGISTRO.php" target="_self">REGISTRATE</a></li>
           <li><a href="INDEX.php" target="_self"><b>INICIO</b></a></li>
           <li><a href="UBICANOS.php" target="_self">UBÍCANOS</a></li>
+          <li><a href="inicio_sesion.php" target="_self">ENTRAR</a></li>
           <li class="dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">MENÚ</a>
           <ul class="dropdown-content dropdown-menu">

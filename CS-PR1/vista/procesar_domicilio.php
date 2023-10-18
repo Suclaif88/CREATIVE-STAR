@@ -5,54 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CREATIVE STAR</title>
     
-    <link rel="stylesheet" href="ESTILOS/ESTILOS.css">
-    <link rel="stylesheet" href="ESTILOS/boostrap.css">
-    <link rel="icon" type="image/png" href="IMG/Fondos/brocha.png">
+    <link rel="stylesheet" href="../ESTILOS/ESTILOS.css">
+    <link rel="stylesheet" href="../ESTILOS/boostrap.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="JS/JS1.js"></script>
+    <script src="../JS/JS1.js"></script>
+    <link rel="icon" type="image/png" href="../IMG/Fondos/brocha.png">
 </head>
-<body style="background-repeat: no-repeat; background-size: cover; background-image: url(IMG/Fondos/foto\ 4.jpg);">
+<body style="background-repeat: no-repeat; background-size: cover; background-image: url(../IMG/Fondos/foto\ 4.jpg);">
 
 <nav class="navbar">
         <div class="logo">
-        <a href="INDEX.php" target="_self"><img src="IMG/logos/creativestar3.png" alt="Logo"></a>
+        <a href="../INICIO.php" target="_self"><img src="../IMG/logos/creativestar3.png" alt="Logo"></a>
         </div>
         <div class="imguser">
-         <a href="INDEX.php" target="_self"></a>
+         <a href="../INICIO.php" target="_self"></a>
         </div>
         <ul class="menu">
-          <li><a href="REGISTRO.php" target="_self">REGISTRATE</a></li>
-          <li><a href="INDEX.php" target="_self"><b>INICIO</b></a></li>
+          <li><a href="../INICIO.php" target="_self">INICIO</a></li>
           <li><a href="UBICANOS.php" target="_self">UBÍCANOS</a></li>
-          <li><a href="inicio_sesion.php" target="_self">ENTRAR</a></li>
           <li class="dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">MENÚ</a>
           <ul class="dropdown-content dropdown-menu">
            <li><a href="VIDEOS.php">Videos Ilustrativos</a></li>
-           <li><a href="DOMICILIOS.php">Domicilios</a></li>
+           <li><a href="DOMICILIOS.php"><b>Domicilios</b></a></li>
+           <li><a href="../php/logout.php">Cerrar sesion</a></li>
           </ul>
           </li>
         </ul>
         <div class="icono">
-          <a href="QSOMOS.php" target="_self"><img src="IMG/Fondos/brocha.png"></a>
+          <a href="QSOMOS.php" target="_self"><img src="../IMG/Fondos/brocha.png"></a>
         </div>
-      </nav>
-
-<div class="textinc">
-  <h1><strong>"LA CREATIVIDAD ES LA INTELIGENCIA DIVIRTIENDOSE"</strong></h1><h4>ALBERT EINSTEIN</h4>
-</div>
-
-
-<div class="parent">
-  <div class="div1"> </div>
-  <div class="div2"> </div>
-  <div class="div3"> </div>
-  <div class="div4"> </div>
-  <div class="div5"> </div>
-  <div class="div6"> </div>
-  <div class="div7"> </div>
-</div>
-
+</nav>
+<center>
+      <h1>SE PROCESO CON EXITO TU DOMICILIO :D</h1>
+</center>
 </body>
 
 <footer class="footer">
