@@ -41,10 +41,10 @@
   <form action="singup.php" method="post">
   <br>
    <label><strong><h1>REGISTRO</h1></strong></label>
-   <input type="text" name="name" placeholder="Ingresa tu nombre">
+   <input type="text" name="nombre" placeholder="Ingresa tu nombre">
    <input type="text" name="apellido" placeholder="Ingresa tus apellidos">  
    <input type="text" name="doc" placeholder="Ingresa tu documento">
-   <input type="text" name="email" placeholder="Ingresa tu correo">
+   <input type="text" name="correo" placeholder="Ingresa tu correo">
    <input type="password" name="password" placeholder="Ingresa tu contraseña">
    <input type="password" name="confirm_password" placeholder="Confirma tu contraseña">
    <form action="singup.php" method="post">
