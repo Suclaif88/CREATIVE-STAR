@@ -998,6 +998,7 @@ span.uno {
     left: 0;
     background-color: #fff;
     animation: vuela 7s linear infinite normal both;
+    border: 1px solid #000;
 }
 span.uno {
     width: 100px;
