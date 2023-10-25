@@ -919,7 +919,7 @@
 .seccion-contenido {
     display: flex;
     width: 100%;
-    height: 100vh;
+    height: 1000px;
     align-items: center;
     justify-content: center;
 }

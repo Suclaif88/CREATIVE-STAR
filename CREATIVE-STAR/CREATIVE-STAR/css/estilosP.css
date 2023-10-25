@@ -414,6 +414,8 @@
     align-items: center;
     border-bottom: 1px solid #fff;
     padding-bottom: 60px;
+    margin-bottom: auto;
+    
 }
 
 .navbar--pie{
@@ -667,3 +669,4 @@
         margin-left: 0;
     }
 }
+
