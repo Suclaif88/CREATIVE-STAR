@@ -22,7 +22,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             header("Location: ../vista/index.html");
         }
     } else {
-        echo 'Error en las credenciales de inicio de sesión';
+        echo "<script>alert('Error en las credenciales de inicio de sesión');</script>";
+        echo "<script>window.location.href='../iniciar_sesion.html';</script>";
+        
     }
 }
 

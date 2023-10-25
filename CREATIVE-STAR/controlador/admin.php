@@ -188,7 +188,7 @@ table th{
                         <th><?= $row['EMAIL'] ?></th>
                         <th><?= $row['CONTRA'] ?></th>
                         <th><?= $row['PERFIL'] ?></th>
-                        <th><a href="../php/update.php?ID=<?= $row['ID'] ?>" class="users-table--edit">Editar</a></th>
+                        <th><a href="../php/update.php?id=<?= $row['ID'] ?>" class="users-table--edit">Editar</a></th>
                         <th><a href="../php/delete_user.php?id=<?= $row['ID'] ?>" class="users-table--delete" >Eliminar</a></th>
                     </tr>
                 <?php endwhile; ?>

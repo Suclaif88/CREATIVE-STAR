@@ -1,15 +1,11 @@
 <?php 
     require_once("conexion.php");
      
-    if (isset($_GET['ID'])) {
-        $ID = $_GET['ID']; // Obtener el ID del usuario a editar
-    } else {
-        echo "No se proporcionó un ID válido.";
-        exit;
-    }
+    $id = $_GET['id'];
 
-    $sql="SELECT * FROM usuarios WHERE ID='$ID'";
+    $sql = "SELECT * FROM usuarios WHERE id = '$id'";
     $query=mysqli_query($conexion, $sql);
+
 
     $row=mysqli_fetch_array($query);
 ?>
@@ -124,17 +120,17 @@ table th{
 </style>
     <body>
         <div class="users-form">
-            <form action="edit_user.php" method="POST">
-            <input type="text" name="username" placeholder="Usuario">
-            <input type="email" name="correo" placeholder="Correo">
-            <input type="password" name="contra" placeholder="Contraseña">
-            
-            <SELECT name="perfil">
-            <option>SELECCIONE PERFIL</option>
-            <option value="1">1.Admin</option>
-            <option value="2">2.Vista</option>
-            </SELECT> 
-            <input type="submit" value="Actualizar">
+        <form action="edit_user.php" method="POST">
+                <input type="hidden" name="id" value="<?= $row['ID']?>">
+                <input type="text" name="username" placeholder="Usuario" value="<?= $row['USER_NAME']?>">
+                <input type="text" name="correo" placeholder="Correo" value="<?= $row['EMAIL']?>">
+                <input type="text" name="contra" placeholder="Contraseña" value="<?= $row['CONTRA']?>">
+                <SELECT name="perfil">
+                    <option>SELECCIONE PERFIL</option>
+                    <option value="1">1.Admin</option>
+                    <option value="2">2.Vista</option>
+                </SELECT>
+                <input type="submit" value="ACTUALIZAR">
             </form>
         </div>
     </body>
