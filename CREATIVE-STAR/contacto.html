@@ -25,9 +25,10 @@
                 <li><a href="contacto.html"><b>Contacto</b></a></li>
                 <li><a href="blog.html">Blog</a></li>
            </ul>            
-        </nav>
+        
         <a class="btn" href="registro.html"><button>Registro</button></a>
     </header>
+
     <section class="contenedor-fondo-animado">
         <div class="animacion">
           
@@ -49,88 +50,101 @@
         <div class="seccion-contenido">
             <div class="contenido">
                 <!---------------------->
-<style>
-    form {
-       width: 100%;
-       max-width: 500px; 
-       background-color: #55C9F6;
-       padding: 20px;
-       box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-       border-radius: 15px;
-     }
- 
-     h1 {
-       text-align: center;
-       color: black;
-     }
- 
-     label {
-       display: block;
-       margin-bottom: 10px;
-       color: #333;
-     }
- 
-     input[type="text"],
-     input[type="tel"],
-     input[type="email"],
-     textarea {
-       width: 100%;
-       padding: 10px;
-       margin-bottom: 20px;
-       border: 1px solid #ccc;
-       border-radius: 5px;
-     }
- 
-     input[type="submit"] {
-       padding: 10px 20px;
-       background-color: #3498DB;
-       color: white;
-       border: none;
-       border-radius: 5px;
-       cursor: pointer;
-     }
- 
-     input[type="submit"]:hover {
-       background-color: #2980B9;
-     }
-     @media (max-width: 600px) {
-       form {
-         max-width: 100%;
-       }
-     }
-   </style>
- </head>
- <body>
-  <div style="height: 50px;"></div>
-   <center>
-   <form action="procesar_domicilio.php" method="POST">
-     <h1>FORMULARIO DE CONTACTO :D</h1>
-     <br>
-     <label for="nombre">Nombre Completo:</label>
-     <input type="text" id="nombre" name="nombre" required>
- 
-     <label for="telefono">Teléfono de Contacto:</label>
-     <input type="tel" id="telefono" name "telefono" required>
- 
-     <label for="correo">Correo Electrónico:</label>
-     <input type="email" id="correo" name="correo" required>
- 
-     <label for="direccion">MENSAJE:</label>
-     <textarea id="direccion" name="direccion" rows="4" required></textarea>
- 
-     <label for="pedido">INFO:</label>
-     <textarea id="pedido" name="pedido" rows="4" required></textarea>
- 
-     <input type="submit" value="Enviar Pedido">
-   </form>
-   </center>
- <!---------------------->
+                <style>
+
+                  form {
+                     width: 100%;
+                     max-width: 500px; 
+                     background-color: rgba(255, 255, 255, 0.5);
+                     padding: 20px;
+                     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+                     border-radius: 10px;
+                     margin-bottom: 200px;
+                   }
+               
+                   h1 {
+                     text-align: center;
+                     color: black;
+                   }
+               
+                   label {
+                     display: block;
+                     margin-bottom: 10px;
+                     color: #333;
+                   }
+               
+                   input[type="text"],
+                   input[type="tel"],
+                   input[type="email"],
+                   textarea {
+                     width: 100%;
+                     padding: 10px;
+                     margin-bottom: 20px;
+                     border: 1px solid #ccc;
+                     border-radius: 5px;
+                   }
+               
+                   input[type="submit"] {
+                     padding: 10px 20px;
+                     background-color: #3498DB;
+                     color: white;
+                     border: none;
+                     border-radius: 5px;
+                     cursor: pointer;
+                   }
+               
+                   input[type="submit"]:hover {
+                     background-color: #2980B9;
+                   }
+                   @media (max-width: 600px) {
+                     form {
+                       max-width: 100%;
+                     }
+                   }
+                 </style>
+               </head>
+              
+               <body>
+                 <center>
+                  <br>
+                  <br>
+                  <br>
+                 <form action="procesar_domicilio.php" method="POST">
+                   <h1>FORMULARIO DE CONTACTO :D</h1>
+                   <br>
+                   <label for="nombre">Nombre Completo:</label>
+                   <input type="text" id="nombre" name="nombre" required>
+               
+                   <label for="telefono">Teléfono de Contacto:</label>
+                   <input type="tel" id="telefono" name ="telefono" required>
+               
+                   <label for="direccion">MENSAJE:</label>
+                   <textarea id="direccion" name="direccion" rows="4" required></textarea>
+               
+              
+               
+                   <input type="submit" value="Enviar Pedido">
+                 </form>
+              
+                 <br>
+                 <br>
+                 <br>
+                 <br>
+                 <br>
+                 <br>
+                 <br>
+                 <br>
+                 <br>
+                 <br>
+                 <br>
+                 </center>
+               <!---------------------->
             </div>
         </div>
     </section>
 </body>
 
-<footer style="border-top: 4px solid #000;">
+<footer  style="border-top: 4px solid #000;">
   <section class="pie__contenedor contenedor">
       <navbar class="navbar navbar--pie">
           <h2 class="pie__title">CREATIVE-STAR</h2>
