@@ -1,12 +1,13 @@
 <?php
 require_once("conexion.php");
 
+$id=$_POST["id"];
 $USER_NAME = $_POST['username'];
 $EMAIL = $_POST['correo'];
 $CONTRA = $_POST['contra'];
 $PERFIL = $_POST['perfil'];
 
-$sql="UPDATE usuarios SET USER_NAME='$USER_NAME',EMAIL='$EMAIL',CONTRA='$CONTRA',PERFIL='$PERFIL' WHERE ID='$ID'";
+$sql="UPDATE usuarios SET USER_NAME='$USER_NAME',EMAIL='$EMAIL',CONTRA='$CONTRA',PERFIL='$PERFIL' WHERE id='$id'";
 
 $query = mysqli_query($conexion, $sql);
 
