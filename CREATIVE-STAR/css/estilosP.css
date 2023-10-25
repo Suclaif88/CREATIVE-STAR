@@ -1255,15 +1255,72 @@ span.cuatro {
 .secreg{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     place-items: center;   
 }
 
-.s1{
-    background-color: red;
-    width: 400px;
-    height: 200px;
-    grid-area: 2 / 2; /*dos abajo, dos a un lado*/
-    border: 4px solid #000;
-    box-shadow: 4px 4px rgb(87, 238, 87);
+/*REGISTRO*/
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5); /* Fondo transparente (0.5 es la opacidad) */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    grid-area: 1 / 2; /*dos abajo, dos a un lado*/
+}
+
+.container h1{
+    text-align: center;
+}
+
+.form-group {
+    margin: 10px 0;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group input[type="submit"] {
+    background-color: #0073e6; /* Color de fondo para el botón de enviar */
+    color: #fff;
+    cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #005ab4; /* Color de fondo para el botón de enviar al pasar el mouse */
+}
+
+.bottom-text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-button {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.login-button input[type="submit"] {
+    background-color: #0073e6; /* Color de fondo para el botón de enviar */
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.login-button input[type="submit"]:hover {
+    background-color: #005ab4; /* Color de fondo para el botón de enviar al pasar el mouse */
 }
